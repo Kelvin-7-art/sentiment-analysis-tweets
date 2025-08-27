@@ -8,7 +8,8 @@ from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
 
 
-DATA_URL = "https://drive.google.com/uc?id=1Ct3UAWIIOpDUY3cAV-p45zhF0gL28CR4"
+DATA_URL = "https://raw.githubusercontent.com/<username>/sentiment-analysis-tweets/main/Tweets.csv"
+
 
 st.title("Sentiment Analysis of Tweets about US Airlines")
 st.sidebar.title("Sentiment Analysis of Tweets")
